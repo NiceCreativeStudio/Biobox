@@ -1,0 +1,276 @@
+/* Imports */
+@font-face {
+    font-family: 'Grotesk Light';
+    src: url('./assets/Fonts/FoundersGrotesk-Light.otf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Grotesk Regular';
+    src: url('./assets/Fonts/FoundersGrotesk-Regular.otf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Grotesk Bold';
+    src: url('./assets/Fonts/FoundersGrotesk-Bold.otf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rakesly Bold';
+    src: url('./assets/Fonts/rakesly\ bd.otf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('./assets/Fonts/FjallaOne-Regular.ttf');
+    font-display: swap;
+}
+
+
+
+
+
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+header{
+    background-color: #006849;
+    height: 100%;
+    background-image: url('./assets/img/pill.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 20%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav a{
+    margin: 1rem 2rem;
+    font-family: 'Grotesk Light', sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 1rem;
+    color: #F0BE33;
+}
+header nav .nav__logo{
+    font-family: 'Grotesk Bold', sans-serif;
+    font-size: 1.3rem;
+}
+header h4{
+    font-family: 'Grotesk Medium', sans-serif;
+    font-size: 1rem;
+    color: #F0BE33;
+    margin: 5% 5% 5% 5%;
+}
+
+/* LANDING */
+.landing{
+    margin: -5% 5%;
+}
+
+.landing h1{
+    font-family: 'Rakesly Bold', sans-serif;
+    text-align: center;
+    color: #EDEDD6;
+    font-size: 17rem;
+    letter-spacing: 1.5rem;
+    line-height: 28rem;
+    margin-top: 4rem;
+}
+.landing div{
+    position: absolute;
+    top: 23%;
+    right: 12%;
+}
+.landing img{
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+
+.panels__container{
+    display: grid; 
+    grid-template-columns: 5% 30% 30% 30% 5%; 
+    grid-template-rows: min-content 50rem 50rem 90rem min-content 50rem min-content;  
+    grid-template-areas: 
+        "... panel1 panel1 panel1 ..."
+        "... panel2 panel3 panel3 ..."
+        "... panel4 panel5 panel6 ..."
+        "... panel7 panel8 panel8 ..."
+        "... panel9 panel9 panel9 ..."
+        "... panel10 panel10 panel11 ..."
+        "... panel12 panel12 panel12 ..."; 
+    margin: 2% 0;
+}
+.panels__container div{
+    font-family: 'Fjalla One', sans-serif;
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    border-radius: 3.2rem;
+    margin: 0.8rem 0.6rem;
+}
+
+.panels__container .panel1 {
+    grid-area: panel1; 
+    background-color: #F1F1EE;
+    color: #394744;
+    text-align: center;
+    padding: 5% 5%;
+}
+.panels__container .panel2 {
+    grid-area: panel2; 
+    background-color: #383838;
+}
+.panels__container .panel2 p{
+    margin: 90% 3rem 2rem 3rem;
+}
+
+.panels__container .panel3 {
+    grid-area: panel3; 
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5149-1_34ju0bB-0.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471202588);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.panels__container .panel4 {
+    grid-area: panel4; 
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5411-1-2_j5VnzpLWB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471202566);
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.panels__container .panel5 {
+    grid-area: panel5; 
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5317-2_7qm3MoEQa.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471202092);
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+}
+.panels__container .panel6 {
+    grid-area: panel6; 
+    background-color: #006849;
+}
+.panels__container .panel6 p{
+    margin: 90% 3rem 2rem 3rem;
+}
+.panels__container .panel7 {
+    grid-area: panel7; 
+    background-color: #0F4891;
+}
+.panels__container .panel7 p{
+    margin: 190% 3rem 2rem 3rem;
+}
+.panels__container .panel8 {
+    grid-area: panel8; 
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5367-scaled_dEU1Ax-_O.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471203530);
+    background-size: 240%;
+    background-repeat: no-repeat;
+    background-position: 15% 50%;
+}
+.panels__container .panel9 {
+    grid-area: panel9; 
+    background-color: #F1F1EE;
+    color: #394744;
+    text-align: center;
+    padding: 10% 10%;
+}
+.panels__container .panel10 {
+    grid-area: panel10;  
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/ocean_Q8mVVw08vg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662471298212);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.panels__container .panel11 {
+    grid-area: panel11; 
+    background-color: #0F4891;
+}
+.panels__container .panel11 p{
+    margin: 60% 3rem 2rem 3rem;
+}
+.panels__container .panel12 {
+    grid-area: panel12; 
+    background-color: #F1F1EE;
+    color: #394744;
+    text-align: center;
+    padding: 10% 10%;
+}
+
+/* FOOTER */
+footer{
+    background-color: #006849;
+    padding: 4rem 10%;
+    border-top-left-radius: 3.2rem;
+    border-top-right-radius: 3.2rem;
+    height: 30%;
+    text-transform: uppercase;
+    color: #F0BE33;
+}
+
+.footer__container{
+    display: grid; 
+    grid-template-columns: 40% 20% 20% 20%; 
+    grid-template-rows: min-content min-content; 
+    gap: 1.8rem 0px; 
+    grid-template-areas: 
+        "logo follow showroom contact"
+        "copyright social adress info"; 
+    text-transform: uppercase;
+}
+
+.footer__logo {
+    grid-area: logo; 
+    color: #F0BE33;
+    font-family: 'Grotesk Bold', sans-serif;
+    font-size: 2rem;
+}
+.footer__copyright {
+    grid-area: copyright; 
+    font-family: 'Grotesk Light', sans-serif;
+}
+.footer__follow {
+    grid-area: follow; 
+    font-family: 'Grotesk Regular', sans-serif;
+    font-size: 1.5rem;
+}
+.footer__showroom {
+    grid-area: showroom; 
+    font-family: 'Grotesk Regular', sans-serif;
+    font-size: 1.5rem;
+}
+.footer__adress {
+    grid-area: adress; 
+    font-family: 'Groteskt Light', sans-serif;
+}
+.footer__social,
+.footer__social a {
+    grid-area: social; 
+    font-family: 'Groteskt Light', sans-serif;
+    color: #F0BE33;
+}
+.footer__contact {
+    grid-area: contact; 
+    font-family: 'Grotesk Regular', sans-serif;
+    font-size: 1.5rem;
+}
+.footer__info {
+    grid-area: info; 
+    font-family: 'Groteskt Light', sans-serif;
+}
