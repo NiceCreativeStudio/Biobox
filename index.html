@@ -18,15 +18,27 @@
             </ul>
             <a href="nav__contact">CONTACT</a>
         </nav>
-        <section class="landing">
+        <div class="switcherContainer">
+            <ul id="switcher">
+                <li class="colorSwitcher" id="yellowButton"></li>
+                <li class="colorSwitcher" id="blueButton"></li>
+                <li class="colorSwitcher" id="greenButton"></li>
+                <li class="colorSwitcher" id="whiteButton"></li>
+            </ul>
+        </div>
+        <section class="landing" id="landingBg">
             <h1>MEET <br> BIOBOX</h1>
-            <div>
-                <img src="./assets/img/Green.png" alt="">
-            </div>
+            
+            <img id="landingImg" src="./assets/img/Biobox_green.png" alt="">
         </section>
         <h4>A small 3-litre box conceived as a <br> container of organic waste.</h4>
             
     </header>
+
+
+
+
+
 
     <main>
         <section class="panels__container">
@@ -94,5 +106,7 @@
             </ul>
         </section>
     </footer>
+
+    <script src="./colorSwitch.js"></script>
 </body>
 </html>

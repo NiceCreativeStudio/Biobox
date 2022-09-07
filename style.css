@@ -1,3 +1,50 @@
+
+.switcherContainer{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+}
+
+#greenButton {
+    background: #068D64;
+}
+#whiteButton {
+    background: #EDEDD6;
+}
+#blueButton {
+    background: #0F4891;
+}
+#yellowButton {
+    background: #F0BE33;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Imports */
 @font-face {
     font-family: 'Grotesk Light';
@@ -45,10 +92,11 @@ a{
 header{
     background-color: #006849;
     height: 100%;
-    background-image: url('./assets/img/pill.png');
+    background-image: url('./assets/img/yellowPill.png');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 20%;
+    transition: .2s ease all;
 }
 header nav{
     display: flex;
@@ -92,14 +140,14 @@ header h4{
     line-height: 28rem;
     margin-top: 4rem;
 }
-.landing div{
-    position: absolute;
-    top: 23%;
-    right: 12%;
-}
+
 .landing img{
     width: 45%;
-    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
 }
 
