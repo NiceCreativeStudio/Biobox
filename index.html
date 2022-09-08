@@ -10,28 +10,38 @@
 <body>
     <header>
         <nav>
-            <a class="nav__logo" href="">BIOBOX</a>
+            <a class="colorChange nav__logo" id="navLogo" class="" href="">BIOBOX</a>
             <ul>
-                <li><a href="">PROCESS</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">SHOP</a></li>
+                <li><a class="colorChange" id="navLink1" href="">PROCESS</a></li>
+                <li><a class="colorChange" id="navLink2" href="">ABOUT</a></li>
+                <li><a class="colorChange" id="navLink3" href="">SHOP</a></li>
             </ul>
-            <a href="nav__contact">CONTACT</a>
+            <a class="colorChange nav__contact" id="navContact" href="">CONTACT</a>
+            <a id="nav__mobile--trigger" href="">
+                <svg viewBox="0 0 145 98" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="145" height="18" rx="9"/>
+                    <rect y="80" width="145" height="18" rx="9"/>
+                    <rect y="40" width="145" height="18" rx="9"/>
+                </svg>                   
+            </a>
         </nav>
-        <div class="switcherContainer">
-            <ul id="switcher">
-                <li class="colorSwitcher" id="yellowButton"></li>
-                <li class="colorSwitcher" id="blueButton"></li>
-                <li class="colorSwitcher" id="greenButton"></li>
-                <li class="colorSwitcher" id="whiteButton"></li>
-            </ul>
-        </div>
         <section class="landing" id="landingBg">
             <h1>MEET <br> BIOBOX</h1>
             
             <img id="landingImg" src="./assets/img/Biobox_green.png" alt="">
         </section>
-        <h4>A small 3-litre box conceived as a <br> container of organic waste.</h4>
+        
+        <div class="subHero__container">
+            <h4 id="subtitle">A small 3-litre box conceived as a <br> container of organic waste.</h4>
+            <div class="switcherContainer">
+                <ul id="switcher">
+                    <li class="colorSwitcher" id="yellowButton"></li>
+                    <li class="colorSwitcher" id="blueButton"></li>
+                    <li class="colorSwitcher" id="greenButton"></li>
+                    <li class="colorSwitcher" id="whiteButton"></li>
+                </ul>
+            </div>
+        </div>
             
     </header>
 
@@ -44,11 +54,11 @@
         <section class="panels__container">
 
             <div class="panel1">
-                <p>Made from a patented material called woodio™️, <br> a mouldable solid wood composite with 100% waterproff properties.</p>
+                Made from a patented material called woodio™️, <br> a mouldable solid wood composite with 100% waterproff properties.
             </div>
 
             <div class="panel2">
-                <p>easy to <br> rinse or<br> wipe clean</p>
+                easy to <br> rinse or<br> wipe clean
             </div>
 
             <div class="panel3"></div>
@@ -58,27 +68,27 @@
             <div class="panel5"></div>
 
             <div class="panel6">
-                <p>Biowaste can be composted or recycled </p>
+                Biowaste can be composted or recycled 
             </div>
 
             <div class="panel7">
-                <p>perfect on the kitchen counter and used while cooking</p>
+                perfect on the kitchen counter and used while cooking
             </div>
 
             <div class="panel8"></div>
 
             <div class="panel9">
-                <p>We are a nimble family company, founded by mothers and daughters, with an upbeat can-do attitude and commitment to make the world work better.</p>
+                We are a nimble family company, founded by mothers and daughters, with an upbeat can-do attitude and commitment to make the world work better.
             </div>
 
             <div class="panel10"></div>
 
             <div class="panel11">
-                <p>Reducing microplastics and moving towards a circular economy </p>
+                Reducing micro plastics and moving towards a circular economy 
             </div>
 
             <div class="panel12">
-                <p>In the words of ecological activist Jane Goodall: “What you do makes a difference, and you have to decide what kind of difference you want to make.”</p>            
+                In the words of ecological activist Jane Goodall: “What you do makes a difference, and you have to decide what kind of difference you want to make.”            
             </div>
         </section>
     </main>
