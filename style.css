@@ -63,6 +63,7 @@ header nav a{
     letter-spacing: 0.15em;
     font-size: 1rem;
     color: #F0BE33;
+    transition: .2s ease all;
 }
 header nav .nav__logo{
     font-family: 'Grotesk Semibold', sans-serif;
@@ -92,6 +93,7 @@ header nav .nav__logo{
     letter-spacing: 1.5rem;
     line-height: 28rem;
     margin-top: 4rem;
+    transition: .2s ease all;
 }
 
 #landingImg{
@@ -115,6 +117,8 @@ header nav .nav__logo{
     font-family: 'Grotesk Medium', sans-serif;
     font-size: 1rem;
     color: #F0BE33;
+    transition: .2s ease all;
+
 }
 
 .subHero__container .switcherContainer{
@@ -361,8 +365,8 @@ footer{
     }
 
     #landingImg{
-        width: 100%;
-        top: -30%;
+        width: 90%;
+        top: -35%;
     }
 
     .subHero__container{
@@ -430,7 +434,7 @@ footer{
 }
 @media (min-width: 680px) and (max-width: 1080px){
     .landing{
-        background-size: 30%;
+        background-size: 15rem;
     }
     .landing h1{
         font-size: 10rem;
@@ -440,8 +444,8 @@ footer{
     }
 
     #landingImg{
-        width: 60%;
-        top: -40%;
+        width: 30rem;
+        top: -30%;
     }
     
     
@@ -511,26 +515,17 @@ footer{
 }
 @media (min-width: 1080px){
     .landing{
-        background-size: 30%;
+        background-size: 25rem;
     }
     .landing h1{
         font-size: 13rem;
     }
     #landingImg{
-        width: 55%;
-        top: 10%;
+        width: 45rem;
+        top: 6%;
     }
 }
 
 @media screen and (min-width: 1420px){
 
-    .landing{
-        background-size: 25%;
-        transition: .2s ease all;
-    }
-    
-    #landingImg{
-        width: 40%;
-        top: 6%;
-    }
 }
