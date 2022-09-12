@@ -200,21 +200,21 @@ header nav .nav__logo{
 
 .panels__container .panel3 {
     grid-area: panel3; 
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5149-1_34ju0bB-0.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471202588);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/Biobox-container-with-apples-and-grapes.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985651408);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .panels__container .panel4 {
     grid-area: panel4; 
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5411-1-2_j5VnzpLWB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471202566);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/Stacked-Biobox-containers-decor.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985672746);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .panels__container .panel5 {
     grid-area: panel5; 
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5317-2_7qm3MoEQa.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471202092);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/Multiple-Biobox-containers-holding-organic-waste.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985628521);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 70%;
@@ -234,7 +234,7 @@ header nav .nav__logo{
 }
 .panels__container .panel8 {
     grid-area: panel8; 
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/niimaar5367-scaled_dEU1Ax-_O.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662471203530);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/Biobox-container-in-a-kitchen-counter.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985583566);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 15% 50%;
@@ -248,7 +248,7 @@ header nav .nav__logo{
 }
 .panels__container .panel10 {
     grid-area: panel10;  
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/ocean_Q8mVVw08vg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662471298212);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/Biobox/Plastic-waste-floating-in-water-with-fish.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985700934);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -285,6 +285,7 @@ footer{
         "logo follow showroom contact"
         "copyright social adress info"; 
     text-transform: uppercase;
+    line-height: 1.4rem;
 }
 .footer__container a,
 .footer__container h4{
@@ -365,7 +366,7 @@ footer{
     }
 
     #landingImg{
-        width: 90%;
+        width: 55%;
         top: -35%;
     }
 
@@ -444,7 +445,7 @@ footer{
     }
 
     #landingImg{
-        width: 30rem;
+        width: 20rem;
         top: -30%;
     }
     
@@ -521,7 +522,7 @@ footer{
         font-size: 13rem;
     }
     #landingImg{
-        width: 45rem;
+        width: 30rem;
         top: 6%;
     }
 }

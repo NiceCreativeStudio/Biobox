@@ -15,7 +15,7 @@ function switchGreen() {
     document.getElementById("nav__mobile--trigger").style.fill = "#F0BE33";
     document.getElementById("subtitle").style.color = "#F0BE33";
     document.getElementsByClassName('landing')[0].style.backgroundImage = "url('./assets/img/yellowPill.png')";
-/*     document.getElementById("landingImg").src = "./assets/img/Biobox_green.png"; */
+    document.getElementById("landingImg").src = "https://ik.imagekit.io/nicecreativestudio/Biobox/green-biobox.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985077854";
     document.getElementById("yellowButton").style.border = "none";
     document.getElementById("blueButton").style.border = "none";
     document.getElementById("whiteButton").style.border = "none";
@@ -33,7 +33,7 @@ function switchWhite() {
     document.getElementById("nav__mobile--trigger").style.fill = "#0F4891";
     document.getElementById("subtitle").style.color = "#0F4891";
     document.getElementsByClassName('landing')[0].style.backgroundImage = "url('./assets/img/yellowPill.png')";
-/*     document.getElementById("landingImg").src = "./assets/img/Biobox_cream.png"; */
+    document.getElementById("landingImg").src = "https://ik.imagekit.io/nicecreativestudio/Biobox/white-biobox.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985059446";
     document.getElementById("greenButton").style.border = "none";
     document.getElementById("yellowButton").style.border = "none";
     document.getElementById("blueButton").style.border = "none";
@@ -51,7 +51,7 @@ function switchBlue() {
     document.getElementById("nav__mobile--trigger").style.fill = "#EDEDD6";
     document.getElementById("subtitle").style.color = "#EDEDD6";
     document.getElementsByClassName('landing')[0].style.backgroundImage = "url('./assets/img/whitePill.png')";
-/*     document.getElementById("landingImg").src = "./assets/img/Biobox_black.png"; */
+    document.getElementById("landingImg").src = "https://ik.imagekit.io/nicecreativestudio/Biobox/blue-biobox.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985100925";
     document.getElementById("greenButton").style.border = "none";
     document.getElementById("whiteButton").style.border = "none";
     document.getElementById("yellowButton").style.border = "none";
@@ -69,7 +69,7 @@ function switchYellow() {
     document.getElementById("nav__mobile--trigger").style.fill = "#006849";
     document.getElementById("subtitle").style.color = "#006849";
     document.getElementsByClassName('landing')[0].style.backgroundImage = "url('./assets/img/greenPill.png')";
-/*     document.getElementById("landingImg").src = "./assets/img/Biobox_wood.png"; */
+    document.getElementById("landingImg").src = "https://ik.imagekit.io/nicecreativestudio/Biobox/yellow-biobox.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985070092";
     document.getElementById("greenButton").style.border = "none";
     document.getElementById("whiteButton").style.border = "none";
     document.getElementById("blueButton").style.border = "none";
