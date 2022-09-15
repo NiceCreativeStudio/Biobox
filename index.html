@@ -10,13 +10,13 @@
 <body>
     <header>
         <nav>
-            <a class="colorChange nav__logo" id="navLogo" class="" href="">BIOBOX</a>
+            <a class="colorChange nav__logo" href="">BIOBOX</a>
             <ul>
-                <li><a class="colorChange" id="navLink1" href="">PROCESS</a></li>
-                <li><a class="colorChange" id="navLink2" href="">ABOUT</a></li>
-                <li><a class="colorChange" id="navLink3" href="">SHOP</a></li>
+                <li><a class="colorChange" href="">PROCESS</a></li>
+                <li><a class="colorChange" href="">ABOUT</a></li>
+                <li><a class="colorChange" href="">SHOP</a></li>
             </ul>
-            <a class="colorChange nav__contact" id="navContact" href="">CONTACT</a>
+            <a class="colorChange nav__contact" href="">CONTACT</a>
             <a id="nav__mobile--trigger" href="">
                 <svg viewBox="0 0 145 98" xmlns="http://www.w3.org/2000/svg">
                     <rect width="145" height="18" rx="9"/>
@@ -25,14 +25,14 @@
                 </svg>                   
             </a>
         </nav>
-        <section class="landing" id="landingBg">
-            <h1>MEET <br> BIOBOX</h1>
-            
-            <img id="landingImg" src="https://ik.imagekit.io/nicecreativestudio/Biobox/green-biobox.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1662985077854" alt="">
+        <section id="parallaxContainer" class="hero__container bot-container-img">
+            <div class="parallax pill" id="bgPill" data-speed="-5"></div>
+            <h1 class="parallax title unselectable" data-speed="5">MEET</h1>
+            <h1 class="parallax title unselectable" data-speed="5">BIOBOX</h1>
+            <div class="parallax img" id="heroBiobox" data-speed="10"></div>
         </section>
-        
         <div class="subHero__container">
-            <h4 id="subtitle">A small 3-litre box conceived as a <br> container of organic waste.</h4>
+            <h4 id="subtitle" class="colorChange">A small 3-litre box conceived as a <br> container of organic waste.</h4>
             <div class="switcherContainer">
                 <ul id="switcher">
                     <li class="colorSwitcher" id="yellowButton"></li>
@@ -42,12 +42,7 @@
                 </ul>
             </div>
         </div>
-            
     </header>
-
-
-
-
 
 
     <main>
@@ -117,6 +112,7 @@
         </section>
     </footer>
 
-    <script src="./colorSwitch.js"></script>
+    <script src="./assets/js/colorSwitch.js"></script>
+    <script src="./assets/js/parallax.js"></script>
 </body>
 </html>
